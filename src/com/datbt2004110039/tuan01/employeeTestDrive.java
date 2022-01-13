@@ -1,6 +1,6 @@
 package com.datbt2004110039.tuan01;
 
-public class employeeTestDrive {
+public class EmployeeTestDrive {
     public static void main(String[] args) {
         
         Employee nhanVien = new Employee();

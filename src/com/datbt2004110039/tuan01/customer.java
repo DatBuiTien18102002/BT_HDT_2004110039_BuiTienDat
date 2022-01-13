@@ -2,7 +2,7 @@ package com.datbt2004110039.tuan01;
 
 import java.util.Scanner;
 
-public class customer {
+public class Customer {
     String cusName;
     String address;
     Scanner sc = new Scanner(System.in);

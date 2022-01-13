@@ -1,11 +1,12 @@
 package com.datbt2004110039.tuan01.bt_them;
 
-public class sinhVienTestDrive {
-    public static void main(String[] args) {
-        sinhVien sinhvien = new sinhVien();
+public class SinhVienTestDrive {
+public static void main(String[] args) {
+    SinhVien student = new SinhVien();
 
-        sinhvien.nhapSV();
+    student.nhapSV();
 
-        sinhvien.inThongTinSV();
-    }
+    student.inThongTinSV();
+}
+
 }

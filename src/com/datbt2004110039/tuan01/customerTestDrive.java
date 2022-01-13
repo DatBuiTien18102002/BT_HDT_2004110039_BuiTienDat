@@ -1,8 +1,8 @@
 package com.datbt2004110039.tuan01;
 
-public class customerTestDrive {
+public class CustomerTestDrive {
     public static void main(String[] args) {
-        customer khachHang = new customer();
+        Customer khachHang = new Customer();
 
         khachHang.getCusName();
         khachHang.getAddress();

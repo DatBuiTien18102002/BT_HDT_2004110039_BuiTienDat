@@ -2,7 +2,7 @@ package com.datbt2004110039.tuan01.bt_them;
 
 import java.util.Scanner;
 
-public class sinhVien {
+public class SinhVien {
     int mssv;
     String tenSinhVien;
     int tuoi;

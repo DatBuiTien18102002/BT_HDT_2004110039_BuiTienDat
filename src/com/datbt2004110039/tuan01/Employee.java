@@ -19,7 +19,7 @@ public class Employee {
     }
 
     void showInformation(){
-        System.out.println("===Ten khach hang: "+ EmName);
-        System.out.println("===Dia chi: "+ salary);
+        System.out.println("===Ten nhan vien: "+ EmName);
+        System.out.println("===Luong: "+ salary);
     }
 }
