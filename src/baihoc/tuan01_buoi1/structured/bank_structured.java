@@ -1,4 +1,4 @@
-package baihoc_01.structured;
+package baihoc.tuan01_buoi1.structured;
 
 import java.util.Scanner;
 

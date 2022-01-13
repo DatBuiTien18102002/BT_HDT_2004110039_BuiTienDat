@@ -1,4 +1,4 @@
-package baihoc_01.OO;
+package baihoc.tuan01_buoi1.OO;
 
 public class BankTestDrive {
     public static void main(String[] args) {
