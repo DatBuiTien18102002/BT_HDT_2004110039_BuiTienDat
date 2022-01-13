@@ -1,4 +1,4 @@
-package com.datbt2004110039;
+package com.datbt2004110039.tuan01;
 
 import java.util.Scanner;
 
@@ -10,7 +10,6 @@ public class customer {
     void getCusName(){
         System.out.print("Nhap ten khach hang: ");
         cusName = sc.nextLine();
-
     }
 
     void getAddress(){
