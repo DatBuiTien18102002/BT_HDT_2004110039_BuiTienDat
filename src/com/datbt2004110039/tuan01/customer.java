@@ -1,4 +1,4 @@
-package com.datbt2004110039.tuan01;
+package com.datbt2004110039;
 
 import java.util.Scanner;
 
