@@ -2,14 +2,14 @@ package baitap.tuan01_buoi2;
 
 public class Shape {
     
-    String shape;
+    String name;
     int size;
     String color;
     String audio;
 
-    Shape(String sh, int s, String c, String a){
-        shape = sh;
+    Shape(String n, int s, String c, String a){
         size = s;
+        name = n;
         color = c;
         audio = a;
     }
