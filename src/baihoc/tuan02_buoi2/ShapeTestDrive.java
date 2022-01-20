@@ -6,14 +6,12 @@ public class ShapeTestDrive {
         Circle circle = new Circle("hinhtron.aif");
         Square square = new Square("hinhvuong.aif");
         Triangle triangle = new Triangle("hinhtamgiac.aif");
+        Amoeba amoeba = new Amoeba("hinhamoeba.hif");
 
         circle.rotate();
-        circle.playSound();
-
         square.rotate();
-        square.playSound();
-
         triangle.rotate();
-        triangle.playSound();
+        amoeba.rotate();
+
     }
 }

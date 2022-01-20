@@ -1,10 +1,9 @@
 package baihoc.tuan02_buoi2;
 
-public class Triangle {
-    
+public class Amoeba {
     String soundFile;
 
-    Triangle(String soundFile){
+    Amoeba(String soundFile){
         this.soundFile = soundFile;
     }
 

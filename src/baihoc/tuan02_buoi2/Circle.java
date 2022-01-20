@@ -9,11 +9,12 @@ public class Circle {
     }
 
     void rotate(){
-        System.out.println("Xoay hinh 360 do thei chieu kim dong ho");
+        System.out.println("Xoay hinh 360 do theo chieu kim dong ho");
+        this.playSound();
     }
 
 
     void playSound(){
-        System.out.println("Phat am thanh tu file " + soundFile);
+        System.out.println("Phat am thanh tu file " + this.soundFile);
     }
 }
