@@ -6,7 +6,7 @@ public class ShapeTestDrive {
         Circle circle = new Circle("hinhtron.aif");
         Square square = new Square("hinhvuong.aif");
         Triangle triangle = new Triangle("hinhtamgiac.aif");
-        Amoeba amoeba = new Amoeba("hinhamoeba.hif");
+        Amoeba amoeba = new Amoeba("hinhamoeba.hif",5.5,10.5);
 
         circle.rotate();
         square.rotate();
