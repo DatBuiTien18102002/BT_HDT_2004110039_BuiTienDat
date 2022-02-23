@@ -2,7 +2,7 @@ package baitap.tuan02_buoi2;
 
 public class Player {
     
-    int number = 0;
+    private int number = 0;
 
     public void guess(){
         number = (int) (Math.random() * 10);
