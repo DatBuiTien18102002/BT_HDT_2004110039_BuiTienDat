@@ -32,6 +32,7 @@ public class ChuyenXeTestDrive {
             newChuyenNgoaiThanh.nhapDanhSach();
             chuyenNgoaiThanh.add(newChuyenNgoaiThanh);
             doanhThuNgoaiThanh += chuyenNgoaiThanh.get(i).getDoanhThu();
+            
         }
 
         System.out.println("----Chuyen noi thanh----");

@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.Locale;
 
 public class HangThucPham {
-    private long maHang;
+    private String maHang;
     private String tenHang;
     private double donGia;
     private Date nSX;
@@ -16,7 +16,7 @@ public class HangThucPham {
         
     }
 
-    HangThucPham(long maHang, String tenHang, double donGia, Date nSX, Date hSD){
+    HangThucPham(String maHang, String tenHang, double donGia, Date nSX, Date hSD){
         this.maHang = maHang;
         this.tenHang = tenHang;
         this.donGia = donGia;
@@ -24,15 +24,23 @@ public class HangThucPham {
         this.hSD = hSD;
     }
 
-    HangThucPham(long maHang){
-        this.maHang = maHang;
+    HangThucPham(String maHang){
+        this.setMaHang(maHang);
     }
 
-    public long getMaHang() {
+
+
+    public String getMaHang() {
         return maHang;
     }
-    public void setMaHang(long maHang) {
-        this.maHang = maHang;
+    private void setMaHang(String maHang) {
+        if(maHang != null){
+            this.maHang = maHang;
+        }else{
+            System.out.println("Ma hang ko dc rong: ");
+            this.maHang = "default";
+        }
+
     }
     public String getTenHang() {
         return tenHang;

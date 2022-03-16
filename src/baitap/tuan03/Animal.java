@@ -1,6 +1,6 @@
 package baitap.tuan03;
 
-public class Animal {
+public abstract class  Animal {
     
     private String picture;
     private String food;
@@ -8,18 +8,18 @@ public class Animal {
     private int boundaries;
     private int location;
 
-    protected void makeNoise(){
-        System.out.println("Make noise....");
-    }
+    protected abstract void makeNoise();
+      
+    
     protected void sleep(){
         System.out.println("Slepping....");
     }
     protected void roam(){
         System.out.println("Roaming...");
     }
-    protected void eat(){
-        System.out.println("Eating...");
-    }
+    protected abstract void eat();// hop dong
+    
+    
     
 
 

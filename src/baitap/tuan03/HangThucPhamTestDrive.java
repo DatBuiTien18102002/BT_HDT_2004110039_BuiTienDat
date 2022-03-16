@@ -14,7 +14,7 @@ public class HangThucPhamTestDrive {
         System.out.print("Nhap ma hang: ");
         long maHang = sc.nextLong();
 
-        thucPham.setMaHang(maHang);
+        //thucPham.setMaHang(maHang);
         sc.nextLine();
         do {
             System.out.print("Nhap ten hang: ");

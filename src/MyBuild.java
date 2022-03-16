@@ -7,7 +7,7 @@ public class MyBuild {
 
     // SimpleDateFormat sdf =  new SimpleDateFormat("dd/MM/yyyy");
     // String fNSX = sdf.format(this.nSX);
-    // String fHSD = sdf.format(this.hSD);
+ 
 
     Scanner sc = new Scanner(System.in);
 
@@ -51,4 +51,8 @@ public class MyBuild {
 
     }while(luaChon != 0);
     */
+
+    // System.out.printf("%-15s %-15s %-15s %-15s %-15s \n","Ten Chu Xe","Loai Xe","Dung Tich","Tri Gia","Thue Phai Nop");
+    // System.out.printf("%-15s %-15s %-15d %-15f %-15f \n", this.tenCX,this.loaiXe,this.dungTich,this.triGia,this.thuePhaiNop());
+    //ctrl + shift + P +source action goij constructor
 }

@@ -1,10 +1,15 @@
 package baitap.tuan03;
 
-import javax.swing.tree.RowMapper;
 
-public class Feline extends Animal{
+
+public abstract class Feline extends Animal{
     @Override
     protected void roam() {
         System.out.println("Roaming single");
+    }
+    @Override
+    protected void eat() {
+        // TODO Auto-generated method stub
+        
     }
 }
