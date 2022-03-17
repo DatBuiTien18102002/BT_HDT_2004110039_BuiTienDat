@@ -5,41 +5,43 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public abstract class GiaoDich {
-    private int maGiaoDich;
-    private Date ngayGiaoDich;
-    private double donGia;
-    private int soLuong;
-    private double thanhTien;
+public class GiaoDich {
+    protected int maGiaoDich;
+    protected Date ngayGiaoDich;
+    protected double donGia;
+    protected int soLuong;
+    protected double thanhTien;
 
-    public int getMaGiaoDich() {
+    protected int getMaGiaoDich() {
         return maGiaoDich;
     }
-    public void setMaGiaoDich(int maGiaoDich) {
+    protected void setMaGiaoDich(int maGiaoDich) {
         this.maGiaoDich = maGiaoDich;
     }
-    public Date getNgayGiaoDich() {
+    protected Date getNgayGiaoDich() {
         return ngayGiaoDich;
     }
-    public void setNgayGiaoDich(Date ngayGiaoDich) {
+    protected void setNgayGiaoDich(Date ngayGiaoDich) {
         this.ngayGiaoDich = ngayGiaoDich;
     }
-    public double getDonGia() {
+    protected double getDonGia() {
         return donGia;
     }
-    public void setDonGia(double donGia) {
+    protected void setDonGia(double donGia) {
         this.donGia = donGia;
     }
-    public int getSoLuong() {
+    protected int getSoLuong() {
         return soLuong;
     }
-    public void setSoLuong(int soLuong) {
+    protected void setSoLuong(int soLuong) {
         this.soLuong = soLuong;
     }
-
-    abstract public void tinhThanhTien();
+    protected double getThanhTien() {
+        return thanhTien;
+    }
+ 
     
-    public GiaoDich(int maGiaoDich, Date ngayGiaoDich, double donGia, int soLuong) {
+    protected GiaoDich(int maGiaoDich, Date ngayGiaoDich, double donGia, int soLuong) {
         this.maGiaoDich = maGiaoDich;
         this.ngayGiaoDich = ngayGiaoDich;
         this.donGia = donGia;
@@ -48,7 +50,7 @@ public abstract class GiaoDich {
 
     Scanner sc = new Scanner(System.in);
     SimpleDateFormat sdf =  new SimpleDateFormat("dd/MM/yyyy");
-    public void nhap() throws ParseException{
+    protected void nhap() throws ParseException{
 
         System.out.print("Nhap ma giao dich: ");
         setMaGiaoDich(sc.nextInt());

@@ -30,9 +30,9 @@ public class HoaDonTheoNgay extends HoaDon{
     }
     public void tinhThanhTien(){
         if(this.soNgayThue>7){
-            this.thanhTien = (7*this.getDonGia())+((this.soNgayThue-7)*getDonGia()-(this.soNgayThue-7)*getDonGia()*0.2);
+            this.thanhTien = (7*this.donGia)+((this.soNgayThue-7)*this.donGia-(this.soNgayThue-7)*this.donGia*0.2);
         }else{
-            this.thanhTien = soNgayThue*getDonGia();
+            this.thanhTien = soNgayThue*donGia;
         }
     }
     @Override

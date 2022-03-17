@@ -37,7 +37,7 @@ public class HoaDonTheoGio extends HoaDon{
 
     }
     public void tinhThanhTIen(){
-        this.thanhTien = this.soGioThue*this.getDonGia();
+        this.thanhTien = this.soGioThue*this.donGia;
     }
     @Override
     public String toString() {

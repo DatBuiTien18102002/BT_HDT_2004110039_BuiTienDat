@@ -6,47 +6,48 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class HoaDon {
-    private int maHD;
-    private Date ngayHD;
-    private String tenKhach;
-    private int maPhong;
-    private double donGia;
+    protected int maHD;
+    protected Date ngayHD;
+    protected String tenKhach;
+    protected int maPhong;
+    protected double donGia;
     protected double thanhTien;
 
-    public int getMaHD() {
+    protected int getMaHD() {
         return maHD;
     }
-    public void setMaHD(int maHD) {
+    protected void setMaHD(int maHD) {
         this.maHD = maHD;
     }
-    public Date getNgayHD() {
+    protected Date getNgayHD() {
         return ngayHD;
     }
-    public void setNgayHD(Date ngayHD) {
+    protected void setNgayHD(Date ngayHD) {
         this.ngayHD = ngayHD;
     }
-    public String getTenKhach() {
+    protected String getTenKhach() {
         return tenKhach;
     }
-    public void setTenKhach(String tenKhach) {
+    protected void setTenKhach(String tenKhach) {
         this.tenKhach = tenKhach;
     }
-    public int getMaPhong() {
+    protected int getMaPhong() {
         return maPhong;
     }
-    public void setMaPhong(int maPhong) {
+    protected void setMaPhong(int maPhong) {
         this.maPhong = maPhong;
     }
-    public double getDonGia() {
+    protected double getDonGia() {
         return donGia;
     }
-    public void setDonGia(double donGia) {
+    protected void setDonGia(double donGia) {
         this.donGia = donGia;
     }
-    public double getThanhTien() {
+    protected double getThanhTien() {
         return thanhTien;
     }
-    public HoaDon(int maHD, Date ngayHD, String tenKhach, int maPhong, double donGia) {
+
+    protected HoaDon(int maHD, Date ngayHD, String tenKhach, int maPhong, double donGia) {
         this.maHD = maHD;
         this.ngayHD = ngayHD;
         this.tenKhach = tenKhach;
@@ -54,13 +55,13 @@ public class HoaDon {
         this.donGia = donGia;
     }
     
-    public HoaDon() {
+    protected HoaDon() {
     }
 
     Scanner sc = new Scanner(System.in);
     
     SimpleDateFormat sdf =  new SimpleDateFormat("dd/MM/yyyy");
-    public void nhapThongTin() throws ParseException{
+    protected void nhapThongTin() throws ParseException{
         System.out.print("Nhap ma hoa don: ");
         setMaHD(sc.nextInt());
         sc.nextLine();

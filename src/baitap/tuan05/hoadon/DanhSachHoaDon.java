@@ -34,6 +34,7 @@ public class DanhSachHoaDon {
                 hD[countHD] = hDTheoNgay;
                 sumTheoNgay++;
             }
+            countHD++;
         }
     }
     public void inDS(){
@@ -52,9 +53,12 @@ public class DanhSachHoaDon {
             if(hD[i].getNgayHD().compareTo(sdf.parse("01/09/2013"))>0&&hD[i].getNgayHD().compareTo(sdf.parse("31/09/2013"))<0){
                sumThanhTien +=  hD[i].getThanhTien();
                countKhaDung++;
+               
             }
+
         }
         trungBinhThanhTien = sumThanhTien/countKhaDung;
+        System.out.println("Trung binh thanh tien trong thang 9: "+trungBinhThanhTien);
     }
 
 
